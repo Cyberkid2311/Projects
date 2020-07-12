@@ -4,13 +4,13 @@ Tools Required
 
 Python 3 is used during development and following libraries are required to run the code provided in the notebook:
 
--Tensorflow
+1. Tensorflow
 
--Numpy
+2. Numpy
 
--Matplotlib
+3. Matplotlib
 
--Pandas
+4. Pandas
 
 ### Dataset
 

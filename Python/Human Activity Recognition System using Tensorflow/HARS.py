@@ -178,10 +178,10 @@ def plot_learningCurve(history, epochs):
 
 plot_learningCurve(history, 10)
 
-# ###Confusion Matrix
-# from mlxtend.plotting import plot_confusion_matrix
-# from sklearn.metrics import confusion_matrix
-#
-# y_pred =model.predict_classes(X_test)
-# mat =confusion_matrix(y_test,y_pred)
-# plot_confusion_matrix(conf_mat=mat,class_names = label.classes_, show_normed = True,figsize = (7,7))
+# Confusion Matrix
+from mlxtend.plotting import plot_confusion_matrix
+from sklearn.metrics import confusion_matrix
+
+y_pred =model.predict_classes(X_test)
+mat =confusion_matrix(y_test,y_pred)
+plot_confusion_matrix(conf_mat=mat,class_names = label.classes_, show_normed = True,figsize = (7,7))
